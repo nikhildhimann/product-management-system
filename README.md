@@ -84,15 +84,15 @@ This is a full-stack web application built with the MERN stack (MongoDB, Express
 6. **Scren shots:**
 
     **Home page:**
-    ![Home page](*<img width="1898" height="1080" alt="1" src="https://github.com/user-attachments/assets/b13fe3a1-f0c8-4e7f-81ee-e37dec51d1a7" />
+    (*<img width="1898" height="1080" alt="1" src="https://github.com/user-attachments/assets/b13fe3a1-f0c8-4e7f-81ee-e37dec51d1a7" />
 )
 
     **Add Product page:**
-    ![Add Product page](<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/2304f200-cc68-4e5f-b3ee-bd055922f85d" />
+   (<img width="1920" height="1080" alt="2" src="https://github.com/user-attachments/assets/2304f200-cc68-4e5f-b3ee-bd055922f85d" />
 ")
 
     **Dashboard page:**
-    ![Dashboard page](<img width="1892" height="1078" alt="3" src="https://github.com/user-attachments/assets/943eb4b2-3cfb-4731-a981-00c11452d62d" />*
+    (<img width="1892" height="1078" alt="3" src="https://github.com/user-attachments/assets/943eb4b2-3cfb-4731-a981-00c11452d62d" />*
 )
 
 
