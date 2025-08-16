@@ -1,0 +1,107 @@
+/* Purple React Dashboard Theme - Global Styles */
+body {
+  background: #f5f7ff;
+  font-family: 'Poppins', 'Roboto', Arial, sans-serif;
+  color: #6c7293;
+}
+
+:root {
+  --purple-main: #6c63ff;
+  --purple-dark: #4834d4;
+  --sidebar-bg: #1b1b38;
+  --sidebar-active: #6c63ff;
+  --sidebar-text: #fff;
+  --card-bg: #fff;
+  --card-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  --input-bg: #f5f7ff;
+  --input-border: #e0e7ff;
+  --btn-primary: #6c63ff;
+  --btn-primary-hover: #4834d4;
+  --danger: #ff4c60;
+  --success: #28c76f;
+}
+
+.container-scroller,
+.main-panel,
+.content-wrapper {
+  background: #f5f7ff;
+}
+
+.card,
+.shadow-lg,
+.border-0 {
+  background: var(--card-bg) !important;
+  box-shadow: var(--card-shadow) !important;
+  border-radius: 1rem !important;
+}
+
+.navbar,
+.navbar-brand {
+  background: #fff !important;
+  color: var(--purple-main) !important;
+  font-weight: 700;
+}
+
+.sidebar {
+  background: var(--sidebar-bg);
+  color: var(--sidebar-text);
+  min-height: 100vh;
+  padding: 2rem 1rem;
+}
+.sidebar .active {
+  background: var(--sidebar-active);
+  color: #fff;
+}
+.sidebar a,
+.sidebar button {
+  color: var(--sidebar-text);
+  font-weight: 500;
+  margin-bottom: 1rem;
+  transition: background 0.2s, color 0.2s;
+}
+.sidebar a:hover,
+.sidebar button:hover {
+  background: var(--purple-main);
+  color: #fff;
+}
+
+.btn-primary {
+  background: var(--btn-primary) !important;
+  border: none !important;
+}
+.btn-primary:hover {
+  background: var(--btn-primary-hover) !important;
+}
+
+.btn-danger {
+  background: var(--danger) !important;
+  border: none !important;
+}
+.btn-success {
+  background: var(--success) !important;
+  border: none !important;
+}
+
+input,
+textarea,
+select {
+  background: var(--input-bg) !important;
+  border: 1px solid var(--input-border) !important;
+  border-radius: 0.5rem !important;
+  color: #6c7293 !important;
+}
+input:focus,
+textarea:focus,
+select:focus {
+  border-color: var(--purple-main) !important;
+  box-shadow: 0 0 0 2px rgba(108, 99, 255, 0.15);
+}
+
+.alert-danger {
+  background: #ffe5e9 !important;
+  color: var(--danger) !important;
+}
+.alert-success {
+  background: #e6ffed !important;
+  color: var(--success) !important;
+}
