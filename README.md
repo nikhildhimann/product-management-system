@@ -43,7 +43,7 @@ This is a full-stack web application built with the MERN stack (MongoDB, Express
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/nikhildhimann/product-management-system.git](https://github.com/nikhildhimann/product-management-system.git)
     ```
 2.  **Install frontend dependencies:**
     ```bash
@@ -71,14 +71,28 @@ This is a full-stack web application built with the MERN stack (MongoDB, Express
 
     * **Backend:**
         ```bash
-        cd Back
+        cd Backend
         npm run dev
         ```
     * **Frontend:**
         ```bash
-        cd fronte
+        cd frontend
         npm run dev
         ```
+
+
+6. **Scren shots:**
+
+    **Home page:**
+    ![Home page]("./Screen-Shots/1.png)
+
+    **Add Product page:**
+    ![Add Product page]("./Screen-Shots/3.png)
+
+    **Dashboard page:**
+    ![Dashboard page]("./Screen-Shots/2.png)
+
+
 
 ## Contributing
 
